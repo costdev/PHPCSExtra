@@ -13,6 +13,7 @@
 
     <!-- Exclude Composer vendor directory. -->
     <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*DisallowNonDecimalIntegersInStrictTypesUnitTestGenerator.php</exclude-pattern>
 
     <!-- Only check PHP files. -->
     <arg name="extensions" value="php"/>
