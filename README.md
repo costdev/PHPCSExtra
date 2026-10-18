@@ -432,6 +432,10 @@ The available error codes are: `UnionTypeSpacesBefore`, `UnionTypeSpacesAfter`, 
 
 Disallow the use of parentheses when calling `exit` or `die` without passing parameters.
 
+### `Universal.PHP.DisallowNonDecimalIntegersInStrictTypes` :wrench: :bar_chart:
+
+Disallow the use of non-decimal integers when declaring `strict_types`.
+
 #### `Universal.PHP.RequireExitDieParentheses` :wrench: :bar_chart: :books:
 
 Require the use of parentheses when calling `exit` or `die`, whether parameters are passed or not.
