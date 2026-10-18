@@ -1,0 +1,6 @@
+<?php
+
+// Whitespace before the value.
+
+// Hexadecimal (uppercase) 1 (padded with one zero).
+declare(strict_types= 0X01);

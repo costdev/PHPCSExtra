@@ -1,0 +1,6 @@
+<?php
+
+// Whitespace before strict_types.
+
+// Hexadecimal (lowercase) 0 (unpadded).
+declare( strict_types=0);

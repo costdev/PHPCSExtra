@@ -1,0 +1,6 @@
+<?php
+
+// declare in uppercase.
+
+// Binary (uppercase) 0 (padded with one zero).
+DECLARE(strict_types=0B00);

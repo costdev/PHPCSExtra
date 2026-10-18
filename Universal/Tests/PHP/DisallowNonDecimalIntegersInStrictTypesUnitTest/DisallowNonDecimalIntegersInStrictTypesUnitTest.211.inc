@@ -1,0 +1,6 @@
+<?php
+
+// declare in uppercase.
+
+// Hexadecimal (uppercase) 0 (padded with two zeroes).
+DECLARE(strict_types=0X000);

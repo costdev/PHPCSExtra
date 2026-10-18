@@ -1,0 +1,6 @@
+<?php
+
+// Multiple directives with strict_types first.
+
+// Hexadecimal (uppercase) 1 (padded with one zero).
+declare(ticks=0x00000001, strict_types=0X01);

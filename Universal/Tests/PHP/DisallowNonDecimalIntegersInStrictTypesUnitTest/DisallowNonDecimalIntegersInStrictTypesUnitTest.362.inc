@@ -1,0 +1,6 @@
+<?php
+
+// strict_types in uppercase.
+
+// Implicit octal 1 (padded with two zeroes and underscores).
+declare(STRICT_TYPES=00_0_1);

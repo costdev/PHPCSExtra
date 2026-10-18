@@ -1,0 +1,6 @@
+<?php
+
+// A comment before declare.
+
+// Explicit octal (lowercase) 1 (padded with two zeroes).
+/*comment*/declare(/*comment*/strict_types=0o001);

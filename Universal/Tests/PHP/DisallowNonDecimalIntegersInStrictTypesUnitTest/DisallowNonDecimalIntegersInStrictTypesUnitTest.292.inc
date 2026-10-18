@@ -1,0 +1,6 @@
+<?php
+
+// Whitespace before the closer.
+
+// Implicit octal 0 (unpadded).
+declare(strict_types=00 );

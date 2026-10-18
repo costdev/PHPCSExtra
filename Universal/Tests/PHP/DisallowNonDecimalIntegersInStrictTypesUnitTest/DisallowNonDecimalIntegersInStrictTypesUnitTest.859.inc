@@ -1,0 +1,6 @@
+<?php
+
+// Whitespace before strict_types.
+
+// Binary (uppercase) 1 (padded with two zeroes).
+declare( strict_types=0B001);

@@ -1,0 +1,6 @@
+<?php
+
+// A comment before the value.
+
+// Binary (uppercase) 1 (unpadded).
+declare(strict_types=/*comment*/0B1);

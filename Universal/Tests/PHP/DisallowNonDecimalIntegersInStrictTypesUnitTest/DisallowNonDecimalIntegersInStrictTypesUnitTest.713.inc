@@ -1,0 +1,6 @@
+<?php
+
+// A comment before declare.
+
+// Binary (lowercase) 1 (padded with one zero).
+/*comment*/declare(/*comment*/strict_types=0b01);

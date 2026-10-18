@@ -1,0 +1,9 @@
+<?php
+
+// Multiline with a comment and spaces.
+
+// Implicit octal 1 (unpadded).
+declare(
+  // comment.
+  strict_types = 01
+);

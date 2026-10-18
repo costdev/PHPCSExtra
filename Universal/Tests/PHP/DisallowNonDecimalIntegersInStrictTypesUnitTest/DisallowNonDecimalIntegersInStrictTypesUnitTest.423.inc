@@ -1,0 +1,6 @@
+<?php
+
+// No whitespace.
+
+// Explicit octal (lowercase) 0 (unpadded).
+declare(strict_types=0o0);

@@ -1,0 +1,6 @@
+<?php
+
+// A comment before the closer.
+
+// Implicit octal 1 (unpadded).
+declare(strict_types=01/*comment*/);
