@@ -3,6 +3,101 @@
 $directory = __DIR__ . '/DisallowNonDecimalIntegersInStrictTypesUnitTest';
 $filenameBase = $directory . '/DisallowNonDecimalIntegersInStrictTypesUnitTest.%d.inc';
 $testBases = [
+'No content' => <<<TEST
+<?php
+
+TEST,
+
+'No declare' => <<<TEST
+<?php
+
+// No declare.
+
+// %TESTDESC%.
+namespace Universal\Tests\PHP\DisallowNonDecimalIntegersInStrictTypes;
+
+TEST,
+
+'No parentheses' => <<<TEST
+<?php
+
+// No parentheses.
+
+// %TESTDESC%.
+declare;
+
+TEST,
+
+'Only an opening parenthesis' => <<<TEST
+<?php
+
+// Only an opening parenthesis.
+
+// %TESTDESC%.
+declare(
+
+TEST,
+
+'No directives' => <<<TEST
+<?php
+
+// No directives.
+
+// %TESTDESC%.
+declare();
+
+TEST,
+
+'No equals' => <<<TEST
+<?php
+
+// No equals.
+
+// %TESTDESC%.
+declare(strict_types);
+
+TEST,
+
+'No value' => <<<TEST
+<?php
+
+// No value.
+
+// %TESTDESC%.
+declare(strict_types=);
+
+TEST,
+
+'No closing parenthesis' => <<<TEST
+<?php
+
+// No closing parenthesis.
+
+// %TESTDESC%.
+declare(strict_types=%VALUE%
+
+TEST,
+
+'No strict_types' => <<<TEST
+<?php
+
+// No strict_types.
+
+// %TESTDESC%.
+declare(encoding='ISO-8859-1');
+
+TEST,
+
+'Another directive with a non-decimal integer' => <<<TEST
+<?php
+
+// Another directive with a non-decimal integer.
+
+// %TESTDESC%.
+declare(ticks=%VALUE%);
+
+TEST,
+
 'declare in uppercase' => <<<TEST
 <?php
 
