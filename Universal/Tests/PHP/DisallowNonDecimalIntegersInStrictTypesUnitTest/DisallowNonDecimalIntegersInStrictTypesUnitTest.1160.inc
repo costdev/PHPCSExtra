@@ -1,0 +1,6 @@
+<?php
+
+// Another directive with a non-decimal integer.
+
+// Binary (lowercase) 0 (unpadded).
+declare(ticks=0b0);

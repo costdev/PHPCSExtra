@@ -1,6 +1,6 @@
 <?php
 
-// Multiple directives with strict_types first.
+// Only an opening parenthesis.
 
-// Explicit octal (lowercase) 1 (padded with two zeroes).
-declare(strict_types=0o001, ticks=0x00000001);
+// Implicit octal 0 (unpadded).
+declare(

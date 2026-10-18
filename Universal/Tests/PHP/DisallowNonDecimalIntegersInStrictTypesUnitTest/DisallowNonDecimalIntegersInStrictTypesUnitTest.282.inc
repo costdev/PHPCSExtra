@@ -1,6 +1,6 @@
 <?php
 
-// A comment before the closer.
+// No value.
 
-// Implicit octal 1 (unpadded).
-declare(strict_types=01/*comment*/);
+// Hexadecimal (uppercase) 1 (padded with one zero).
+declare(strict_types=);

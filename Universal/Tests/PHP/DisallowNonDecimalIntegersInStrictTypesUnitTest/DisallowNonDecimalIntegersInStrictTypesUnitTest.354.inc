@@ -1,6 +1,6 @@
 <?php
 
-// A comment before strict_types.
+// Only an opening parenthesis.
 
-// Implicit octal 0 (padded with two zeroes).
-declare(/*comment*/strict_types=0000);
+// Hexadecimal (uppercase) 0 (padded with two zeroes).
+declare(

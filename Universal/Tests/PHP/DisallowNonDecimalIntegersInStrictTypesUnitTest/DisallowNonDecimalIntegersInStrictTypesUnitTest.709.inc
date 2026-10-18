@@ -1,6 +1,6 @@
 <?php
 
-// Whitespace before strict_types.
+// No strict_types.
 
-// Binary (lowercase) 1 (padded with one zero).
-declare( strict_types=0b01);
+// Explicit octal (lowercase) 0 (unpadded).
+declare(encoding='ISO-8859-1');

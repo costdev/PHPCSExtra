@@ -1,6 +1,6 @@
 <?php
 
-// Whitespace before the value.
+// No equals.
 
-// Explicit octal (uppercase) 1 (padded with two zeroes).
-declare(strict_types= 1);
+// Implicit octal 1 (padded with two zeroes and underscores).
+declare(strict_types);

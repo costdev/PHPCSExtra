@@ -2,5 +2,5 @@
 
 // declare in uppercase.
 
-// Hexadecimal (uppercase) 0 (padded with two zeroes).
-DECLARE(strict_types=0X000);
+// Hexadecimal (lowercase) 42 (padded with two zeroes and underscores).
+DECLARE(strict_types=0x2_A);

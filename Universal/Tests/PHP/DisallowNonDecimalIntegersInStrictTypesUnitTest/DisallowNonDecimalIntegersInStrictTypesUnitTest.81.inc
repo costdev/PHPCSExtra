@@ -1,6 +1,6 @@
 <?php
 
-// Whitespace before the value.
+// No equals.
 
-// Hexadecimal (lowercase) 0 (padded with two zeroes).
-declare(strict_types= 0x000);
+// Hexadecimal (lowercase) 0 (padded with one zero).
+declare(strict_types);

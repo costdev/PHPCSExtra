@@ -1,6 +1,6 @@
 <?php
 
-// Multiple directives with strict_types first.
+// No directives.
 
 // Hexadecimal (lowercase) 0 (unpadded).
-declare(ticks=0x00000001, strict_types=0x0);
+declare();

@@ -1,6 +1,0 @@
-<?php
-
-// A comment before the closer.
-
-// Hexadecimal (uppercase) 0 (padded with two zeroes).
-declare(strict_types=0/*comment*/);

@@ -2,5 +2,5 @@
 
 // strict_types in uppercase.
 
-// Binary (uppercase) 1 (padded with two zeroes and underscores).
-declare(STRICT_TYPES=0B0_0_1);
+// Explicit octal (lowercase) 42 (padded with two zeroes and underscores).
+declare(STRICT_TYPES=0o5_2);

@@ -1,6 +1,6 @@
 <?php
 
-// Multiple directives with strict_types first.
+// Another directive with a non-decimal integer.
 
-// Implicit octal 0 (padded with two zeroes).
-declare(ticks=0x00000001, strict_types=0000);
+// Hexadecimal (uppercase) 0 (padded with two zeroes).
+declare(ticks=0X000);

@@ -1,6 +1,6 @@
 <?php
 
-// A comment before strict_types.
+// Multiple directives with strict_types first.
 
-// Explicit octal (uppercase) 0 (padded with two zeroes).
-declare(/*comment*/strict_types=0O000);
+// Implicit octal 1 (padded with two zeroes and underscores).
+declare(strict_types=00_0_1, ticks=0x00000001);

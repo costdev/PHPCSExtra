@@ -1,6 +1,6 @@
 <?php
 
-// A comment before the value.
+// No equals.
 
-// Hexadecimal (lowercase) 0 (padded with one zero).
-declare(strict_types=/*comment*/0x00);
+// Hexadecimal (lowercase) 1 (padded with one zero).
+declare(strict_types);

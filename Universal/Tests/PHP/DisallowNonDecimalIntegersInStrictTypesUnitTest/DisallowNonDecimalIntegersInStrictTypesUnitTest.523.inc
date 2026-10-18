@@ -2,8 +2,8 @@
 
 // Multiline with a comment and spaces.
 
-// Explicit octal (lowercase) 0 (padded with two zeroes and underscores).
+// Implicit octal 1 (padded with one zero).
 declare(
   // comment.
-  strict_types = 0o0_0_0
+  strict_types = 001
 );

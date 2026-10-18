@@ -1,6 +1,6 @@
 <?php
 
-// Whitespace before the closer.
+// A comment before the closer.
 
-// Hexadecimal (lowercase) 0 (unpadded).
-declare(strict_types=0x0 );
+// Hexadecimal (lowercase) 1 (unpadded).
+declare(strict_types=0x1/*comment*/);

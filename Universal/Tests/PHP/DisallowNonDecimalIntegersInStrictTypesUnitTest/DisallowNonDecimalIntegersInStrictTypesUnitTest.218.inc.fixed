@@ -1,6 +1,0 @@
-<?php
-
-// A comment before declare.
-
-// Hexadecimal (uppercase) 0 (padded with two zeroes).
-/*comment*/declare(/*comment*/strict_types=0);

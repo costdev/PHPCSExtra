@@ -1,6 +1,6 @@
 <?php
 
-// strict_types in uppercase.
+// A comment before the closer.
 
-// Hexadecimal (lowercase) 0 (padded with one zero).
-declare(STRICT_TYPES=0x00);
+// Hexadecimal (lowercase) 0 (unpadded).
+declare(strict_types=0x0/*comment*/);

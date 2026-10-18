@@ -1,6 +1,6 @@
 <?php
 
-// Whitespace before the equals sign.
+// Multiple directives with strict_types first.
 
-// Binary (uppercase) 0 (padded with two zeroes).
-declare(strict_types =0B000);
+// Explicit octal (lowercase) 0 (padded with two zeroes and underscores).
+declare(ticks=0x00000001, strict_types=0o0_0_0);

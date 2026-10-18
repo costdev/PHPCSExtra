@@ -1,0 +1,6 @@
+<?php
+
+// No declare.
+
+// Binary (uppercase) 1 (padded with two zeroes and underscores).
+namespace Universal\Tests\PHP\DisallowNonDecimalIntegersInStrictTypes;

@@ -1,6 +1,6 @@
 <?php
 
-// Multiple directives with strict_types first.
+// A comment before the equals sign.
 
-// Explicit octal (lowercase) 1 (unpadded).
-declare(ticks=0x00000001, strict_types=0o1);
+// Hexadecimal (uppercase) 0 (padded with two zeroes and underscores).
+declare(strict_types/*comment*/=0X0_0_0);

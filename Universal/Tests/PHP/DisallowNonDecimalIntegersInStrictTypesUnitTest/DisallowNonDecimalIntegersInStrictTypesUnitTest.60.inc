@@ -1,6 +1,6 @@
 <?php
 
-// Multiple directives with strict_types first.
+// Another directive with a non-decimal integer.
 
-// Hexadecimal (lowercase) 0 (padded with one zero).
-declare(ticks=0x00000001, strict_types=0x00);
+// Hexadecimal (lowercase) 1 (padded with one zero).
+declare(ticks=0x01);

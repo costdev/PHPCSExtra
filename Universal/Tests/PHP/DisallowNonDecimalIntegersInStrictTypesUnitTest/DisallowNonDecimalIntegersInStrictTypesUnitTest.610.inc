@@ -1,6 +1,6 @@
 <?php
 
-// A comment before the equals sign.
+// Another directive with a non-decimal integer.
 
-// Explicit octal (uppercase) 1 (padded with two zeroes).
-declare(strict_types/*comment*/=0O001);
+// Implicit octal 1 (padded with two zeroes and underscores).
+declare(ticks=00_0_1);

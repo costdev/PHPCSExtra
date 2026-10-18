@@ -1,6 +1,6 @@
 <?php
 
-// A comment before strict_types.
+// Only an opening parenthesis.
 
-// Binary (lowercase) 0 (padded with one zero).
-declare(/*comment*/strict_types=0);
+// Explicit octal (lowercase) 1 (padded with one zero).
+declare(

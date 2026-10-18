@@ -2,5 +2,5 @@
 
 // strict_types in uppercase.
 
-// Hexadecimal (lowercase) 1 (padded with two zeroes).
+// Hexadecimal (lowercase) 1 (padded with one zero).
 declare(STRICT_TYPES=1);

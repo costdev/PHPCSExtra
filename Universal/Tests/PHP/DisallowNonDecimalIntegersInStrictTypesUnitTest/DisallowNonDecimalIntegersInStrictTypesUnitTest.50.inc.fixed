@@ -1,6 +1,6 @@
 <?php
 
-// Whitespace before the equals sign.
+// Multiple directives with strict_types first.
 
-// Hexadecimal (lowercase) 0 (padded with one zero).
-declare(strict_types =0);
+// Hexadecimal (lowercase) 0 (unpadded).
+declare(ticks=0x00000001, strict_types=0);

@@ -2,5 +2,5 @@
 
 // declare in uppercase.
 
-// Explicit octal (lowercase) 0 (padded with two zeroes and underscores).
-DECLARE(strict_types=0o0_0_0);
+// Implicit octal 1 (padded with one zero).
+DECLARE(strict_types=001);

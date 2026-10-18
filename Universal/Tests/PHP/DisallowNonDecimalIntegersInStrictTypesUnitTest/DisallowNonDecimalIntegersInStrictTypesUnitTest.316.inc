@@ -1,6 +1,6 @@
 <?php
 
-// declare in uppercase.
+// Whitespace before the value.
 
-// Implicit octal 0 (padded with one zero).
-DECLARE(strict_types=000);
+// Hexadecimal (uppercase) 0 (padded with one zero).
+declare(strict_types= 0X00);

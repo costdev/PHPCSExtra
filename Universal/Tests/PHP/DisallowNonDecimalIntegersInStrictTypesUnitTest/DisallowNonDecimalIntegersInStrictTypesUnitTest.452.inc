@@ -1,6 +1,6 @@
 <?php
 
-// strict_types in uppercase.
+// No declare.
 
-// Explicit octal (lowercase) 0 (padded with one zero).
-declare(STRICT_TYPES=0o00);
+// Implicit octal 1 (unpadded).
+namespace Universal\Tests\PHP\DisallowNonDecimalIntegersInStrictTypes;

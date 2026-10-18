@@ -2,5 +2,5 @@
 
 // strict_types in uppercase.
 
-// Hexadecimal (uppercase) 1 (unpadded).
-declare(STRICT_TYPES=0X1);
+// Hexadecimal (lowercase) 0 (padded with two zeroes).
+declare(STRICT_TYPES=0x000);

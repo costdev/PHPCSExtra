@@ -1,6 +1,6 @@
 <?php
 
-// A comment before declare.
+// No parentheses.
 
-// Explicit octal (uppercase) 1 (padded with one zero).
-/*comment*/declare(/*comment*/strict_types=0O01);
+// Implicit octal 0 (padded with two zeroes).
+declare;

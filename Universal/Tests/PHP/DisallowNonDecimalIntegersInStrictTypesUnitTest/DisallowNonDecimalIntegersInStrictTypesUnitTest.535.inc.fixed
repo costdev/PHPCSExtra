@@ -1,0 +1,6 @@
+<?php
+
+// Another directive with a non-decimal integer.
+
+// Implicit octal 0 (padded with one zero).
+declare(ticks=0);

@@ -2,5 +2,5 @@
 
 // A comment before the value.
 
-// Binary (uppercase) 1 (padded with two zeroes and underscores).
-declare(strict_types=/*comment*/0B0_0_1);
+// Explicit octal (lowercase) 42 (padded with two zeroes and underscores).
+declare(strict_types=/*comment*/0o5_2);

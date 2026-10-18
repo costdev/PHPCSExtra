@@ -1,6 +1,6 @@
 <?php
 
-// A comment before the closer.
+// No declare.
 
-// Implicit octal 0 (padded with one zero).
-declare(strict_types=0/*comment*/);
+// Hexadecimal (uppercase) 1 (padded with two zeroes).
+namespace Universal\Tests\PHP\DisallowNonDecimalIntegersInStrictTypes;

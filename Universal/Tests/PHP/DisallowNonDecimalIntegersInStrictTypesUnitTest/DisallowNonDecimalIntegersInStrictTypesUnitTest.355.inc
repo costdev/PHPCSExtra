@@ -1,6 +1,6 @@
 <?php
 
-// A comment before the equals sign.
+// No directives.
 
-// Implicit octal 0 (padded with two zeroes).
-declare(strict_types/*comment*/=0000);
+// Hexadecimal (uppercase) 0 (padded with two zeroes).
+declare();

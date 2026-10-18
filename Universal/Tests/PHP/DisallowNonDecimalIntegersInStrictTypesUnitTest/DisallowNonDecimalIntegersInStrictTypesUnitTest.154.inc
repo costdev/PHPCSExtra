@@ -1,6 +1,6 @@
 <?php
 
-// Whitespace before strict_types.
+// Only an opening parenthesis.
 
-// Hexadecimal (uppercase) 0 (unpadded).
-declare( strict_types=0X0);
+// Hexadecimal (lowercase) 1 (padded with two zeroes and underscores).
+declare(

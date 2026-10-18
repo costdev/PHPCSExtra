@@ -1,6 +1,6 @@
 <?php
 
-// declare in uppercase.
+// No equals.
 
-// Hexadecimal (lowercase) 1 (padded with one zero).
-DECLARE(strict_types=0x01);
+// Hexadecimal (lowercase) 0 (unpadded).
+declare(strict_types);

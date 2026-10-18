@@ -2,5 +2,5 @@
 
 // strict_types in uppercase.
 
-// Explicit octal (lowercase) 1 (padded with one zero).
-declare(STRICT_TYPES=0o01);
+// Hexadecimal (uppercase) 42 (padded with two zeroes and underscores).
+declare(STRICT_TYPES=0X2_A);

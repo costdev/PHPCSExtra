@@ -2,5 +2,5 @@
 
 // A comment before declare.
 
-// Implicit octal 0 (unpadded).
-/*comment*/declare(/*comment*/strict_types=00);
+// Hexadecimal (uppercase) 1 (padded with one zero).
+/*comment*/declare(/*comment*/strict_types=0X01);

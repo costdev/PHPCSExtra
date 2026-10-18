@@ -2,5 +2,5 @@
 
 // A comment before the closer.
 
-// Explicit octal (uppercase) 0 (padded with one zero).
-declare(strict_types=0O00/*comment*/);
+// Implicit octal 0 (padded with two zeroes).
+declare(strict_types=0000/*comment*/);

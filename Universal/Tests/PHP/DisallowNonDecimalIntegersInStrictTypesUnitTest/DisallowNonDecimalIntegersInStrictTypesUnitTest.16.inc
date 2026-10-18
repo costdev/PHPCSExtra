@@ -1,6 +1,6 @@
 <?php
 
-// declare in uppercase.
+// Whitespace before the value.
 
-// Hexadecimal (lowercase) 0 (unpadded).
-DECLARE(strict_types=0x0);
+// Hexadecimal (lowercase) 1 (unpadded).
+declare(strict_types= 0x1);

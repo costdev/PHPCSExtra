@@ -1,0 +1,6 @@
+<?php
+
+// A comment before strict_types.
+
+// Binary (uppercase) 0 (padded with two zeroes and underscores).
+declare(/*comment*/strict_types=0B0_0_0);

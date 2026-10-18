@@ -2,5 +2,5 @@
 
 // A comment before the equals sign.
 
-// Explicit octal (lowercase) 0 (padded with two zeroes and underscores).
-declare(strict_types/*comment*/=0);
+// Implicit octal 1 (padded with one zero).
+declare(strict_types/*comment*/=1);

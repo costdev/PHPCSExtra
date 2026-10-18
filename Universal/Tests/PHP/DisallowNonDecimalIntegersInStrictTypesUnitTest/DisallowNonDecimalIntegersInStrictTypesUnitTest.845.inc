@@ -1,6 +1,6 @@
 <?php
 
-// Whitespace before the equals sign.
+// A comment before the equals sign.
 
-// Binary (uppercase) 0 (padded with one zero).
-declare(strict_types =0B00);
+// Explicit octal (lowercase) 1 (padded with two zeroes and underscores).
+declare(strict_types/*comment*/=0o0_0_1);

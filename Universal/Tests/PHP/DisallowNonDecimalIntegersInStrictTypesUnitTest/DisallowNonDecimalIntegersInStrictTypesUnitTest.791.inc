@@ -1,6 +1,6 @@
 <?php
 
-// A comment before the value.
+// Whitespace before the value.
 
-// Binary (lowercase) 0 (padded with two zeroes and underscores).
-declare(strict_types=/*comment*/0b0_0_0);
+// Explicit octal (lowercase) 1 (padded with two zeroes).
+declare(strict_types= 0o001);

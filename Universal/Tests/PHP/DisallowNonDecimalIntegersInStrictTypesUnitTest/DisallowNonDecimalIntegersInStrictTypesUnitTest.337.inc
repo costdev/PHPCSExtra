@@ -1,6 +1,6 @@
 <?php
 
-// Whitespace before the closer.
+// strict_types in uppercase.
 
-// Implicit octal 1 (padded with two zeroes).
-declare(strict_types=0001 );
+// Hexadecimal (uppercase) 1 (padded with two zeroes).
+declare(STRICT_TYPES=0X001);

@@ -1,6 +1,6 @@
 <?php
 
-// A comment before strict_types.
+// No strict_types.
 
-// Binary (uppercase) 0 (padded with two zeroes and underscores).
-declare(/*comment*/strict_types=0B0_0_0);
+// Explicit octal (uppercase) 1 (unpadded).
+declare(encoding='ISO-8859-1');

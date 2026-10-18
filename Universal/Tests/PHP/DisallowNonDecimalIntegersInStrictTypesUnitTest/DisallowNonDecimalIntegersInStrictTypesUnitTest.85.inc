@@ -1,6 +1,6 @@
 <?php
 
-// A comment before the equals sign.
+// Another directive with a non-decimal integer.
 
-// Hexadecimal (lowercase) 0 (padded with two zeroes).
-declare(strict_types/*comment*/=0x000);
+// Hexadecimal (lowercase) 0 (padded with one zero).
+declare(ticks=0x00);

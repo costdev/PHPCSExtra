@@ -1,0 +1,6 @@
+<?php
+
+// No closing parenthesis.
+
+// Binary (uppercase) 0 (padded with two zeroes).
+declare(strict_types=0B000

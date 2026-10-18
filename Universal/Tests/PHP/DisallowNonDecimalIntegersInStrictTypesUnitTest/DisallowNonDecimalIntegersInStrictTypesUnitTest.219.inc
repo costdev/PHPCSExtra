@@ -2,5 +2,5 @@
 
 // A comment before strict_types.
 
-// Hexadecimal (uppercase) 0 (padded with two zeroes).
-declare(/*comment*/strict_types=0X000);
+// Hexadecimal (lowercase) 42 (padded with two zeroes and underscores).
+declare(/*comment*/strict_types=0x2_A);

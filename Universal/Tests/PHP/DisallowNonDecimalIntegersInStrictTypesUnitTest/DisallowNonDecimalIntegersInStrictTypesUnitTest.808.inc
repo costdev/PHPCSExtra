@@ -1,9 +1,6 @@
 <?php
 
-// Multiline with a comment and spaces.
+// No closing parenthesis.
 
-// Binary (uppercase) 1 (unpadded).
-declare(
-  // comment.
-  strict_types = 0B1
-);
+// Explicit octal (lowercase) 0 (padded with two zeroes).
+declare(strict_types=0o000

@@ -2,8 +2,8 @@
 
 // Multiline with a comment and spaces.
 
-// Hexadecimal (uppercase) 0 (padded with two zeroes).
+// Hexadecimal (lowercase) 42 (padded with two zeroes and underscores).
 declare(
   // comment.
-  strict_types = 0X000
+  strict_types = 0x2_A
 );

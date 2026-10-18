@@ -2,5 +2,5 @@
 
 // Whitespace before the equals sign.
 
-// Binary (uppercase) 0 (unpadded).
+// Explicit octal (lowercase) 0 (padded with two zeroes).
 declare(strict_types =0);

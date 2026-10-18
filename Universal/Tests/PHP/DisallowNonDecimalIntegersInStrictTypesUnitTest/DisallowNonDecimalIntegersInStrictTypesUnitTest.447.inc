@@ -2,5 +2,5 @@
 
 // A comment before the closer.
 
-// Explicit octal (lowercase) 1 (padded with one zero).
-declare(strict_types=0o01/*comment*/);
+// Hexadecimal (uppercase) 42 (padded with two zeroes and underscores).
+declare(strict_types=0X2_A/*comment*/);

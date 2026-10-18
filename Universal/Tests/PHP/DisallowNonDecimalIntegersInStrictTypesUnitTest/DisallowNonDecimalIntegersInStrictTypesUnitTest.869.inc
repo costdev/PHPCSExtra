@@ -1,6 +1,6 @@
 <?php
 
-// Multiple directives with strict_types first.
+// A comment before strict_types.
 
-// Binary (uppercase) 1 (padded with two zeroes).
-declare(strict_types=0B001, ticks=0x00000001);
+// Explicit octal (lowercase) 0 (padded with two zeroes and underscores).
+declare(/*comment*/strict_types=0o0_0_0);

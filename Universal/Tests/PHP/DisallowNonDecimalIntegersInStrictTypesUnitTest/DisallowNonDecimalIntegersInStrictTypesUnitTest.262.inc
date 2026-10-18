@@ -1,6 +1,6 @@
 <?php
 
-// Whitespace before the closer.
+// strict_types in uppercase.
 
-// Hexadecimal (uppercase) 42 (padded with two zeroes and underscores).
-declare(strict_types=0X2_A );
+// Hexadecimal (uppercase) 0 (unpadded).
+declare(STRICT_TYPES=0X0);

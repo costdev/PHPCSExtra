@@ -1,6 +1,6 @@
 <?php
 
-// declare in uppercase.
+// A comment before the value.
 
-// Hexadecimal (lowercase) 42 (padded with two zeroes and underscores).
-DECLARE(strict_types=0x2_A);
+// Hexadecimal (lowercase) 1 (padded with two zeroes).
+declare(strict_types=/*comment*/0x001);

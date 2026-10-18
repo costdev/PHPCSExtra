@@ -1,0 +1,6 @@
+<?php
+
+// declare in uppercase.
+
+// Explicit octal (uppercase) 0 (padded with one zero).
+DECLARE(strict_types=0O00);

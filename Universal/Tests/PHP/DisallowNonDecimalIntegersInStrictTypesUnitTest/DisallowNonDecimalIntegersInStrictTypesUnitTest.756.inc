@@ -1,6 +1,6 @@
 <?php
 
-// Whitespace before the value.
+// No equals.
 
-// Binary (lowercase) 0 (padded with two zeroes).
-declare(strict_types= 0b000);
+// Explicit octal (lowercase) 0 (padded with one zero).
+declare(strict_types);

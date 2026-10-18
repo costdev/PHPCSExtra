@@ -1,9 +1,6 @@
 <?php
 
-// Multiline with a comment and spaces.
+// No parentheses.
 
-// Hexadecimal (uppercase) 1 (padded with one zero).
-declare(
-  // comment.
-  strict_types = 0X01
-);
+// Hexadecimal (lowercase) 0 (padded with two zeroes and underscores).
+declare;

@@ -1,9 +1,6 @@
 <?php
 
-// Multiline with a comment and spaces.
+// No parentheses.
 
-// Explicit octal (uppercase) 0 (padded with two zeroes).
-declare(
-  // comment.
-  strict_types = 0O000
-);
+// Implicit octal 0 (padded with two zeroes and underscores).
+declare;

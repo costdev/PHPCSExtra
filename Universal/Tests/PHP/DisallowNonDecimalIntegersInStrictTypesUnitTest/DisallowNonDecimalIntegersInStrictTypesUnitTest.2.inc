@@ -1,6 +1,6 @@
 <?php
 
-// strict_types in uppercase.
+// No declare.
 
 // Hexadecimal (lowercase) 1 (unpadded).
-declare(STRICT_TYPES=0x1);
+namespace Universal\Tests\PHP\DisallowNonDecimalIntegersInStrictTypes;

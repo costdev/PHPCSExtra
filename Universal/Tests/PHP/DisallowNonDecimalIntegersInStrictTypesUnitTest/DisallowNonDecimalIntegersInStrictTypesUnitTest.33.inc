@@ -1,6 +1,6 @@
 <?php
 
-// No whitespace.
+// No closing parenthesis.
 
-// Hexadecimal (lowercase) 1 (padded with one zero).
-declare(strict_types=0x01);
+// Hexadecimal (lowercase) 0 (unpadded).
+declare(strict_types=0x0

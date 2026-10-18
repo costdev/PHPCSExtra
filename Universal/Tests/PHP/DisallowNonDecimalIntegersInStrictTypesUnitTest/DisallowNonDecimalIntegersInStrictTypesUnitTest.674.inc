@@ -2,5 +2,5 @@
 
 // Multiple directives with strict_types first.
 
-// Explicit octal (uppercase) 42 (padded with two zeroes and underscores).
-declare(strict_types=0O5_2, ticks=0x00000001);
+// Implicit octal 42 (padded with two zeroes and underscores).
+declare(strict_types=05_2, ticks=0x00000001);

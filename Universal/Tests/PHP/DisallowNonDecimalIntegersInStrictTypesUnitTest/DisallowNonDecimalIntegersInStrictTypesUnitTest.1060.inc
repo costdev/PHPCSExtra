@@ -1,0 +1,6 @@
+<?php
+
+// Another directive with a non-decimal integer.
+
+// Explicit octal (uppercase) 1 (padded with two zeroes and underscores).
+declare(ticks=0O0_0_1);

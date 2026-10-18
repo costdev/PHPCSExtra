@@ -2,5 +2,5 @@
 
 // Multiple directives with strict_types first.
 
-// Explicit octal (lowercase) 1 (padded with one zero).
-declare(strict_types=0o01, ticks=0x00000001);
+// Hexadecimal (uppercase) 42 (padded with two zeroes and underscores).
+declare(strict_types=0X2_A, ticks=0x00000001);

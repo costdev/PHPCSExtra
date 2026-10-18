@@ -1,6 +1,6 @@
 <?php
 
-// Multiple directives with strict_types first.
+// Whitespace before strict_types.
 
-// Binary (lowercase) 1 (unpadded).
-declare(strict_types=0b1, ticks=0x00000001);
+// Explicit octal (lowercase) 1 (unpadded).
+declare( strict_types=0o1);

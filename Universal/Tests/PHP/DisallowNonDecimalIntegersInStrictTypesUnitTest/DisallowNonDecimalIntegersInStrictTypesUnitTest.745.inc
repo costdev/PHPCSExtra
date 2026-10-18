@@ -2,5 +2,5 @@
 
 // A comment before the equals sign.
 
-// Binary (lowercase) 1 (padded with two zeroes).
-declare(strict_types/*comment*/=0b001);
+// Explicit octal (lowercase) 1 (padded with one zero).
+declare(strict_types/*comment*/=0o01);

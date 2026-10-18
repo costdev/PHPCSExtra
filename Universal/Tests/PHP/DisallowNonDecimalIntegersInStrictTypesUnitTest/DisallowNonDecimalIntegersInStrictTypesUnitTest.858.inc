@@ -1,6 +1,6 @@
 <?php
 
-// No whitespace.
+// No closing parenthesis.
 
-// Binary (uppercase) 1 (padded with two zeroes).
-declare(strict_types=0B001);
+// Explicit octal (lowercase) 0 (padded with two zeroes and underscores).
+declare(strict_types=0o0_0_0

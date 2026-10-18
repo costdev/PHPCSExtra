@@ -2,5 +2,5 @@
 
 // declare in uppercase.
 
-// Binary (uppercase) 0 (unpadded).
-DECLARE(strict_types=0B0);
+// Explicit octal (lowercase) 0 (padded with two zeroes).
+DECLARE(strict_types=0o000);

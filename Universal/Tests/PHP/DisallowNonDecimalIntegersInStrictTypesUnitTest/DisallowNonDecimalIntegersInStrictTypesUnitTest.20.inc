@@ -1,6 +1,6 @@
 <?php
 
-// Whitespace before the equals sign.
+// A comment before the equals sign.
 
-// Hexadecimal (lowercase) 0 (unpadded).
-declare(strict_types =0x0);
+// Hexadecimal (lowercase) 1 (unpadded).
+declare(strict_types/*comment*/=0x1);

@@ -1,6 +1,6 @@
 <?php
 
-// declare in uppercase.
+// A comment before the value.
 
-// Implicit octal 0 (padded with two zeroes).
-DECLARE(strict_types=0000);
+// Hexadecimal (uppercase) 1 (padded with two zeroes).
+declare(strict_types=/*comment*/0X001);

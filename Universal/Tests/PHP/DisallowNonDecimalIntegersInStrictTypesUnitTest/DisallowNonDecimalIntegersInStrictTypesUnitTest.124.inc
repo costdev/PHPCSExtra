@@ -1,6 +1,6 @@
 <?php
 
-// Whitespace before strict_types.
+// Multiple directives with strict_types first.
 
-// Hexadecimal (lowercase) 42 (padded with two zeroes and underscores).
-declare( strict_types=0x2_A);
+// Hexadecimal (lowercase) 1 (padded with two zeroes).
+declare(strict_types=0x001, ticks=0x00000001);

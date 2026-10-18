@@ -1,6 +1,6 @@
 <?php
 
-// A comment before the closer.
+// No declare.
 
-// Explicit octal (uppercase) 1 (unpadded).
-declare(strict_types=0O1/*comment*/);
+// Implicit octal 1 (padded with two zeroes).
+namespace Universal\Tests\PHP\DisallowNonDecimalIntegersInStrictTypes;

@@ -2,5 +2,5 @@
 
 // No whitespace.
 
-// Implicit octal 0 (unpadded).
-declare(strict_types=00);
+// Hexadecimal (uppercase) 1 (padded with one zero).
+declare(strict_types=0X01);

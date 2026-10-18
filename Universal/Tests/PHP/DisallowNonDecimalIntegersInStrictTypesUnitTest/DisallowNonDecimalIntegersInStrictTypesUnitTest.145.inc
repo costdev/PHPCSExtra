@@ -2,5 +2,5 @@
 
 // A comment before the equals sign.
 
-// Hexadecimal (uppercase) 1 (unpadded).
-declare(strict_types/*comment*/=0X1);
+// Hexadecimal (lowercase) 0 (padded with two zeroes).
+declare(strict_types/*comment*/=0x000);

@@ -2,5 +2,5 @@
 
 // A comment before declare.
 
-// Binary (uppercase) 0 (unpadded).
-/*comment*/declare(/*comment*/strict_types=0B0);
+// Explicit octal (lowercase) 0 (padded with two zeroes).
+/*comment*/declare(/*comment*/strict_types=0o000);

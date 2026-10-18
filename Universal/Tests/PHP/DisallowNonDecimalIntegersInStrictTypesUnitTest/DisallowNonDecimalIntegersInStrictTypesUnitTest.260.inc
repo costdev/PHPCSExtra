@@ -1,6 +1,6 @@
 <?php
 
-// Whitespace before the equals sign.
+// Another directive with a non-decimal integer.
 
-// Hexadecimal (uppercase) 42 (padded with two zeroes and underscores).
-declare(strict_types =0X2_A);
+// Hexadecimal (uppercase) 0 (unpadded).
+declare(ticks=0X0);

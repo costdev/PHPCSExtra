@@ -1,6 +1,6 @@
 <?php
 
-// Multiple directives with strict_types first.
+// A comment before strict_types.
 
-// Hexadecimal (lowercase) 1 (padded with one zero).
-declare(strict_types=0x01, ticks=0x00000001);
+// Hexadecimal (lowercase) 0 (unpadded).
+declare(/*comment*/strict_types=0x0);

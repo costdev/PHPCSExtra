@@ -1,6 +1,6 @@
 <?php
 
-// strict_types in uppercase.
+// No value.
 
-// Explicit octal (lowercase) 0 (padded with two zeroes).
-declare(STRICT_TYPES=0o000);
+// Implicit octal 0 (unpadded).
+declare(strict_types=);

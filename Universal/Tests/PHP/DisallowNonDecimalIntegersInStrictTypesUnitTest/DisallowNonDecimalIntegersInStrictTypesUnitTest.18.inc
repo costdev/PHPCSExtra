@@ -1,6 +1,6 @@
 <?php
 
-// No whitespace.
+// A comment before declare.
 
-// Hexadecimal (lowercase) 0 (unpadded).
-declare(strict_types=0x0);
+// Hexadecimal (lowercase) 1 (unpadded).
+/*comment*/declare(/*comment*/strict_types=0x1);

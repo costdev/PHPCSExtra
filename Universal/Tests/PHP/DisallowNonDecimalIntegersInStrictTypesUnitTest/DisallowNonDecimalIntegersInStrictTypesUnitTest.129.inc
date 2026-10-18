@@ -1,6 +1,6 @@
 <?php
 
-// A comment before strict_types.
+// Only an opening parenthesis.
 
-// Hexadecimal (lowercase) 42 (padded with two zeroes and underscores).
-declare(/*comment*/strict_types=0x2_A);
+// Hexadecimal (lowercase) 0 (padded with two zeroes).
+declare(

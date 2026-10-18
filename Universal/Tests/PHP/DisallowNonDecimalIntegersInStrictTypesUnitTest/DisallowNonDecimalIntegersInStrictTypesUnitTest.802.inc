@@ -1,6 +1,6 @@
 <?php
 
-// Whitespace before the closer.
+// No declare.
 
-// Binary (uppercase) 1 (unpadded).
-declare(strict_types=0B1 );
+// Explicit octal (lowercase) 0 (padded with two zeroes).
+namespace Universal\Tests\PHP\DisallowNonDecimalIntegersInStrictTypes;

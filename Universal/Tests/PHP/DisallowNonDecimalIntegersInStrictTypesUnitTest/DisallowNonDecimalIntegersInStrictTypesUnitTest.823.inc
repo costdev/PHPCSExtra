@@ -2,8 +2,8 @@
 
 // Multiline with a comment and spaces.
 
-// Binary (uppercase) 0 (unpadded).
+// Explicit octal (lowercase) 0 (padded with two zeroes).
 declare(
   // comment.
-  strict_types = 0B0
+  strict_types = 0o000
 );

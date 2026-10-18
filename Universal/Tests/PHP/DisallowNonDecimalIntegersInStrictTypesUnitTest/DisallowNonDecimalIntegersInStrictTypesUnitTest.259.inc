@@ -1,6 +1,6 @@
 <?php
 
-// Whitespace before strict_types.
+// No strict_types.
 
-// Hexadecimal (uppercase) 42 (padded with two zeroes and underscores).
-declare( strict_types=0X2_A);
+// Hexadecimal (uppercase) 0 (unpadded).
+declare(encoding='ISO-8859-1');

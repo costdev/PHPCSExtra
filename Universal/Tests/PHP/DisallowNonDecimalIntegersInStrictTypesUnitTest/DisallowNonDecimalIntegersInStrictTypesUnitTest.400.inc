@@ -1,6 +1,6 @@
 <?php
 
-// A comment before the equals sign.
+// Multiple directives with strict_types first.
 
-// Implicit octal 42 (padded with two zeroes and underscores).
-declare(strict_types/*comment*/=05_2);
+// Hexadecimal (uppercase) 1 (padded with two zeroes and underscores).
+declare(ticks=0x00000001, strict_types=0X0_0_1);

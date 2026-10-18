@@ -2,5 +2,5 @@
 
 // No whitespace.
 
-// Hexadecimal (lowercase) 1 (padded with two zeroes).
+// Hexadecimal (lowercase) 1 (padded with one zero).
 declare(strict_types=1);

@@ -1,6 +1,6 @@
 <?php
 
-// A comment before the value.
+// No equals.
 
-// Binary (uppercase) 1 (unpadded).
-declare(strict_types=/*comment*/0B1);
+// Explicit octal (lowercase) 0 (padded with two zeroes).
+declare(strict_types);

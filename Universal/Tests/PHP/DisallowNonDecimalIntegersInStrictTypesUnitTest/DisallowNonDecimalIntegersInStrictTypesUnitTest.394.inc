@@ -1,6 +1,6 @@
 <?php
 
-// Whitespace before strict_types.
+// A comment before strict_types.
 
-// Implicit octal 42 (padded with two zeroes and underscores).
-declare( strict_types=05_2);
+// Hexadecimal (uppercase) 1 (padded with two zeroes and underscores).
+declare(/*comment*/strict_types=0X0_0_1);

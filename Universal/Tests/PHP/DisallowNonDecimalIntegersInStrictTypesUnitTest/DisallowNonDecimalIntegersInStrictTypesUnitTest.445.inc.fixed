@@ -1,6 +1,0 @@
-<?php
-
-// A comment before the equals sign.
-
-// Explicit octal (lowercase) 1 (padded with one zero).
-declare(strict_types/*comment*/=1);
