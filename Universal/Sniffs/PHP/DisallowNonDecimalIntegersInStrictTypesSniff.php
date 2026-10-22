@@ -106,7 +106,7 @@ final class DisallowNonDecimalIntegersInStrictTypesSniff implements Sniff
         $comma = $phpcsFile->findNext(\T_COMMA, $directive, $closer);
         if ($comma !== false) {
             // Avoid checking a later directive.
-            $closer === $comma;
+            $closer = $comma;
         }
 
         $equals = $phpcsFile->findNext(\T_EQUAL, $directive, $closer);
