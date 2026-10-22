@@ -81,7 +81,8 @@ final class DisallowNonDecimalIntegersInStrictTypesSniff implements Sniff
         $closer = $tokens[$opener]['parenthesis_closer'];
 
         $directive = false;
-        for ($i = $stackPtr; $i < $closer; ++$i) {
+        $i = $opener + 1;
+        while ($directive === false && $i < $closer) {
             $nextString = $phpcsFile->findNext(\T_STRING, $i, $closer);
 
             if ($nextString === false) {
@@ -92,6 +93,8 @@ final class DisallowNonDecimalIntegersInStrictTypesSniff implements Sniff
                 $directive = $nextString;
                 break;
             }
+
+            $i = $nextString + 1;
         }
 
         if ($directive === false) {
